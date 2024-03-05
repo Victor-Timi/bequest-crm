@@ -1,0 +1,34 @@
+{
+  "compilerOptions": {
+    "target": "es2016",
+    "module": "commonjs",
+    "esModuleInterop": true,
+    "moduleResolution": "node10",
+    "forceConsistentCasingInFileNames": true,
+    "outDir": "./",
+    "strict": true,
+    "skipLibCheck": true,
+    "baseUrl": "./",
+    "paths": {
+      "@/lib/*": [
+        "lib/*"
+      ],
+      "@/prisma/*": [
+        "prisma/*"
+      ],
+      "@/server/*": [
+        "server/*"
+      ]
+    }
+  },
+  "include": [
+    "server/**/*.ts",
+    "lib/**/*.ts",
+    "prisma/**/*.ts"
+  ],
+  "exclude": [
+    "node_modules",
+    "build",
+    "dist"
+  ]
+}
