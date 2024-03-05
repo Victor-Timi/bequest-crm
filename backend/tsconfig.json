@@ -24,7 +24,8 @@
   "include": [
     "server/**/*.ts",
     "lib/**/*.ts",
-    "prisma/**/*.ts"
+    "prisma/**/*.ts",
+    "index.ts"
   ],
   "exclude": [
     "node_modules",
